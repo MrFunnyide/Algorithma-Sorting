@@ -41,7 +41,7 @@ public class InsertionSort {
             }
            array[simpan + 1] = temp;
         }
-        // run
+        // panggil array yang telah di sorting
         for(i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
